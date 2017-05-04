@@ -47,6 +47,17 @@
      font-weight: 800;
  }
  
+ .navbar-default .navbar-toggle .icon-bar {
+     background-color: white;
+ }
+ 
+ .navbar-default .navbar-toggle {
+     border: 2px solid white;
+     &:hover, &:focus {
+         background-color: #237A57;
+     }
+ }
+ 
  .navbar-default .navbar-brand, 
  .navbar-default .navbar-nav > li > a
  {
